@@ -1,0 +1,21 @@
+/*
+ * claseCarlosSalle.h
+ *
+ *  Created on: Nov 23, 2015
+ *      Author: carlos
+ */
+
+#ifndef SRC_CLASECARLOSSALLE_H_
+#define SRC_CLASECARLOSSALLE_H_
+using namespace std;
+
+class clase_CarlosSalle {
+public:
+	clase_CarlosSalle();
+	virtual ~clase_CarlosSalle();
+	void di_hola(){
+		cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+	}
+};
+
+#endif /* SRC_CLASECARLOSSALLE_H_ */

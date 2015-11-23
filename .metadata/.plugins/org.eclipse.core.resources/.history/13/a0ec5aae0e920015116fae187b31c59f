@@ -1,0 +1,26 @@
+/*
+ * claseCarlosSalle.cpp
+ *
+ *  Created on: Nov 23, 2015
+ *      Author: carlos
+ */
+
+#include "claseCarlosSalle.h"
+using namespace std;
+
+claseCarlosSalle::claseCarlosSalle() {
+	// TODO Auto-generated constructor stub
+
+}
+
+claseCarlosSalle::~claseCarlosSalle() {
+	// TODO Auto-generated destructor stub
+}
+
+int main(){
+	claseCarlosSalle *carlos = new claseCarlosSalle();
+	carlos.di_hola();
+
+	return 0;
+}
+

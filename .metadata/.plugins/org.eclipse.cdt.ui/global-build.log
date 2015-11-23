@@ -1,131 +1,368 @@
-21:00:56 **** Build of configuration Debug for project Prueba1 ****
+19:12:15 **** Incremental Build of configuration Debug for project Task2 ****
 make all 
-Building file: ../hola.c
-Invoking: Cross GCC Compiler
-gccgcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hola.d" -MT"hola.o" -o "hola.o" "../hola.c"
-/bin/sh: 1: gccgcc: not found
-make: *** [hola.o] Error 127
-
-**** Build of configuration Debug for project Prueba2 ****
-
-Nothing to build for project Prueba2
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:01:17 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-Building file: ../hola.c
-Invoking: Cross GCC Compiler
-gccgcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hola.d" -MT"hola.o" -o "hola.o" "../hola.c"
-/bin/sh: 1: gccgcc: not found
-make: *** [hola.o] Error 127
-
-**** Build of configuration Debug for project Prueba2 ****
-
-Nothing to build for project Prueba2
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:16:01 **** Build of configuration Debug for project Prueba1 ****
-make all 
-Building file: ../prueba.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prueba.d" -MT"prueba.o" -o "prueba.o" "../prueba.c"
-Finished building: ../prueba.c
- 
-Building target: Prueba1
-Invoking: GCC C Linker
-gcc  -o "Prueba1"  ./prueba.o   
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 20 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 21 has invalid symbol index 22
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
-/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o: In function `_start':
-(.text+0x18): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-make: *** [Prueba1] Error 1
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:18:32 **** Build of configuration Debug for project Prueba1 ****
-make all 
-Building file: ../src/Prueba1.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prueba1.d" -MT"src/Prueba1.o" -o "src/Prueba1.o" "../src/Prueba1.cpp"
-Finished building: ../src/Prueba1.cpp
- 
-Building target: Prueba1
-Invoking: Cross G++ Linker
-g++  -o "Prueba1"  ./src/Prueba1.o   
-Finished building target: Prueba1
- 
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:18:38 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-make: Nothing to be done for `all'.
-21:19:20 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-make: Nothing to be done for `all'.
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:19:31 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-Building file: ../src/Prueba1.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prueba1.d" -MT"src/Prueba1.o" -o "src/Prueba1.o" "../src/Prueba1.cpp"
-Finished building: ../src/Prueba1.cpp
- 
-Building target: Prueba1
-Invoking: Cross G++ Linker
-g++  -o "Prueba1"  ./src/Prueba1.o   
-Finished building target: Prueba1
- 
-21:21:39 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-Building target: Prueba1
-Invoking: Cross G++ Linker
-g++  -o "Prueba1"  ./src/Prueba1.o   
-Finished building target: Prueba1
- 
-21:21:39 **** Build of configuration Debug for project Task1 ****
-make all 
-Building file: ../src/file1.cpp
+Building file: ../src/claseCarlosSalle.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/file1.d" -MT"src/file1.o" -o "src/file1.o" "../src/file1.cpp"
-Finished building: ../src/file1.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+In file included from ../src/claseCarlosSalle.cpp:8:0:
+../src/claseCarlosSalle.h: In member function ‘void claseCarlosSalle::di_hola()’:
+../src/claseCarlosSalle.h:17:4: error: ‘cout’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+    ^
+../src/claseCarlosSalle.h:17:49: error: ‘endl’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+                                                 ^
+../src/claseCarlosSalle.cpp: In function ‘int main()’:
+../src/claseCarlosSalle.cpp:20:49: error: conversion from ‘claseCarlosSalle*’ to non-scalar type ‘claseCarlosSalle’ requested
+  claseCarlosSalle carlos = new claseCarlosSalle();
+                                                 ^
+make: *** [src/claseCarlosSalle.o] Error 1
+19:16:19 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+19:16:19 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+19:16:20 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlosSalle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+In file included from ../src/claseCarlosSalle.cpp:8:0:
+../src/claseCarlosSalle.h: In member function ‘void claseCarlosSalle::di_hola()’:
+../src/claseCarlosSalle.h:17:4: error: ‘cout’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+    ^
+../src/claseCarlosSalle.h:17:49: error: ‘endl’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+                                                 ^
+../src/claseCarlosSalle.cpp: In function ‘int main()’:
+../src/claseCarlosSalle.cpp:21:49: error: conversion from ‘claseCarlosSalle*’ to non-scalar type ‘claseCarlosSalle’ requested
+  claseCarlosSalle carlos = new claseCarlosSalle();
+                                                 ^
+make: *** [src/claseCarlosSalle.o] Error 1
+19:16:47 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+19:16:48 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+19:16:48 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlosSalle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+In file included from ../src/claseCarlosSalle.cpp:8:0:
+../src/claseCarlosSalle.h: In member function ‘void claseCarlosSalle::di_hola()’:
+../src/claseCarlosSalle.h:17:4: error: ‘cout’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+    ^
+../src/claseCarlosSalle.h:17:49: error: ‘endl’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+                                                 ^
+../src/claseCarlosSalle.cpp: In function ‘int main()’:
+../src/claseCarlosSalle.cpp:21:49: error: conversion from ‘claseCarlosSalle*’ to non-scalar type ‘claseCarlosSalle’ requested
+  claseCarlosSalle carlos = new claseCarlosSalle();
+                                                 ^
+make: *** [src/claseCarlosSalle.o] Error 1
+19:16:53 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+19:16:54 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+19:16:54 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlosSalle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+In file included from ../src/claseCarlosSalle.cpp:8:0:
+../src/claseCarlosSalle.h: In member function ‘void claseCarlosSalle::di_hola()’:
+../src/claseCarlosSalle.h:17:4: error: ‘cout’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+    ^
+../src/claseCarlosSalle.h:17:49: error: ‘endl’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+                                                 ^
+../src/claseCarlosSalle.cpp: In function ‘int main()’:
+../src/claseCarlosSalle.cpp:21:32: error: conversion from ‘claseCarlosSalle*’ to non-scalar type ‘claseCarlosSalle’ requested
+  claseCarlosSalle carlos = new claseCarlosSalle;
+                                ^
+make: *** [src/claseCarlosSalle.o] Error 1
+19:19:36 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+19:19:36 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+19:19:36 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlosSalle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+In file included from ../src/claseCarlosSalle.cpp:8:0:
+../src/claseCarlosSalle.h: In member function ‘void claseCarlosSalle::di_hola()’:
+../src/claseCarlosSalle.h:17:4: error: ‘cout’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+    ^
+../src/claseCarlosSalle.h:17:49: error: ‘endl’ was not declared in this scope
+    cout<<"Hola, soy la clase de Carlos Sallé"<<endl;
+                                                 ^
+../src/claseCarlosSalle.cpp: In function ‘int main()’:
+../src/claseCarlosSalle.cpp:21:2: error: ‘claseCarlosSalle::claseCarlosSalle’ names the constructor, not the type
+  claseCarlosSalle::claseCarlosSalle carlos = new claseCarlosSalle::claseCarlosSalle();
+  ^
+../src/claseCarlosSalle.cpp:21:37: error: expected ‘;’ before ‘carlos’
+  claseCarlosSalle::claseCarlosSalle carlos = new claseCarlosSalle::claseCarlosSalle();
+                                     ^
+../src/claseCarlosSalle.cpp:21:86: error: statement cannot resolve address of overloaded function
+  claseCarlosSalle::claseCarlosSalle carlos = new claseCarlosSalle::claseCarlosSalle();
+                                                                                      ^
+../src/claseCarlosSalle.cpp:22:2: error: ‘carlos’ was not declared in this scope
+  carlos.di_hola();
+  ^
+make: *** [src/claseCarlosSalle.o] Error 1
+19:22:49 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+19:22:49 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+19:22:49 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlosSalle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+In file included from ../src/claseCarlosSalle.cpp:8:0:
+../src/claseCarlosSalle.h: In member function ‘void claseCarlosSalle::saluda()’:
+../src/claseCarlosSalle.h:17:3: error: ‘cout’ was not declared in this scope
+   cout << "Tu vieja"<<endl;
+   ^
+../src/claseCarlosSalle.h:17:23: error: ‘endl’ was not declared in this scope
+   cout << "Tu vieja"<<endl;
+                       ^
+make: *** [src/claseCarlosSalle.o] Error 1
+19:23:25 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+19:23:26 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+19:23:26 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlosSalle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+In file included from ../src/claseCarlosSalle.cpp:8:0:
+../src/claseCarlosSalle.h: In member function ‘void claseCarlosSalle::saluda()’:
+../src/claseCarlosSalle.h:17:3: error: ‘cout’ is not a member of ‘std’
+   std::cout << "Tu vieja"<<std::endl;
+   ^
+../src/claseCarlosSalle.h:17:28: error: ‘endl’ is not a member of ‘std’
+   std::cout << "Tu vieja"<<std::endl;
+                            ^
+make: *** [src/claseCarlosSalle.o] Error 1
+19:24:28 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+19:24:28 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+19:24:28 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlosSalle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+Finished building: ../src/claseCarlosSalle.cpp
+ 
+Building file: ../src/principal.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/principal.d" -MT"src/principal.o" -o "src/principal.o" "../src/principal.cpp"
+../src/principal.cpp: In function ‘int main()’:
+../src/principal.cpp:12:49: error: conversion from ‘claseCarlosSalle*’ to non-scalar type ‘claseCarlosSalle’ requested
+  claseCarlosSalle carlos = new claseCarlosSalle();
+                                                 ^
+make: *** [src/principal.o] Error 1
+19:25:19 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+19:25:19 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+19:25:19 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlosSalle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+../src/claseCarlosSalle.cpp:10:17: error: ‘claseCarlosSalle’ is not a namespace-name
+ using namespace claseCarlosSalle;
+                 ^
+../src/claseCarlosSalle.cpp:10:33: error: expected namespace-name before ‘;’ token
+ using namespace claseCarlosSalle;
+                                 ^
+make: *** [src/claseCarlosSalle.o] Error 1
+19:25:59 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+19:25:59 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+19:25:59 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlosSalle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlosSalle.d" -MT"src/claseCarlosSalle.o" -o "src/claseCarlosSalle.o" "../src/claseCarlosSalle.cpp"
+../src/claseCarlosSalle.cpp: In function ‘int main()’:
+../src/claseCarlosSalle.cpp:22:2: error: ‘claseCarlosSalle::claseCarlosSalle’ names the constructor, not the type
+  claseCarlosSalle::claseCarlosSalle carlos;
+  ^
+../src/claseCarlosSalle.cpp:22:37: error: expected ‘;’ before ‘carlos’
+  claseCarlosSalle::claseCarlosSalle carlos;
+                                     ^
+../src/claseCarlosSalle.cpp:22:43: error: statement cannot resolve address of overloaded function
+  claseCarlosSalle::claseCarlosSalle carlos;
+                                           ^
+../src/claseCarlosSalle.cpp:23:2: error: ‘carlos’ was not declared in this scope
+  carlos.saluda();
+  ^
+make: *** [src/claseCarlosSalle.o] Error 1
+22:13:41 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:41 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+Building file: ../src/task1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/task1_1.d" -MT"src/task1_1.o" -o "src/task1_1.o" "../src/task1_1.cpp"
+Finished building: ../src/task1_1.cpp
  
 Building target: Task1
 Invoking: GCC C++ Linker
-g++  -o "Task1"  ./src/file1.o   
+g++  -o "Task1"  ./src/task1_1.o   
 Finished building target: Task1
  
-21:21:44 **** Incremental Build of configuration Debug for project Task1 ****
+22:13:43 **** Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlos.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlos.d" -MT"src/claseCarlos.o" -o "src/claseCarlos.o" "../src/claseCarlos.cpp"
+../src/claseCarlos.cpp: In function ‘int main()’:
+../src/claseCarlos.cpp:13:2: error: ‘cout’ was not declared in this scope
+  cout << "hola" << endl;
+  ^
+../src/claseCarlos.cpp:13:20: error: ‘endl’ was not declared in this scope
+  cout << "hola" << endl;
+                    ^
+make: *** [src/claseCarlos.o] Error 1
+22:14:04 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:05 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:05 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlos.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlos.d" -MT"src/claseCarlos.o" -o "src/claseCarlos.o" "../src/claseCarlos.cpp"
+Finished building: ../src/claseCarlos.cpp
+ 
+Building file: ../src/principal.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/principal.d" -MT"src/principal.o" -o "src/principal.o" "../src/principal.cpp"
+../src/principal.cpp:9:30: fatal error: claseCarlosSalle.h: No such file or directory
+ #include "claseCarlosSalle.h"
+                              ^
+compilation terminated.
+make: *** [src/principal.o] Error 1
+22:17:06 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+22:17:07 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+22:17:07 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/principal.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/principal.d" -MT"src/principal.o" -o "src/principal.o" "../src/principal.cpp"
+Finished building: ../src/principal.cpp
+ 
+Building target: Task2
+Invoking: GCC C++ Linker
+g++  -o "Task2"  ./src/claseCarlos.o ./src/principal.o   
+./src/principal.o: In function `main':
+/home/carlos/workspace/Task2/Debug/../src/principal.cpp:12: multiple definition of `main'
+./src/claseCarlos.o:/home/carlos/workspace/Task2/Debug/../src/claseCarlos.cpp:12: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Task2] Error 1
+22:20:02 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+22:20:02 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+22:20:03 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlos.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlos.d" -MT"src/claseCarlos.o" -o "src/claseCarlos.o" "../src/claseCarlos.cpp"
+Finished building: ../src/claseCarlos.cpp
+ 
+Building file: ../src/principal.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/principal.d" -MT"src/principal.o" -o "src/principal.o" "../src/principal.cpp"
+Finished building: ../src/principal.cpp
+ 
+Building target: Task2
+Invoking: GCC C++ Linker
+g++  -o "Task2"  ./src/claseCarlos.o ./src/principal.o   
+Finished building target: Task2
+ 
+22:20:10 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+make: Nothing to be done for `all'.
+22:22:13 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+22:22:13 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+22:22:13 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlos.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlos.d" -MT"src/claseCarlos.o" -o "src/claseCarlos.o" "../src/claseCarlos.cpp"
+In file included from ../src/claseCarlos.cpp:8:0:
+../src/claseCarlos.h:13:2: error: declaration does not declare anything [-fpermissive]
+  claseCarlos;
+  ^
+make: *** [src/claseCarlos.o] Error 1
+22:22:27 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/claseCarlos.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlos.d" -MT"src/claseCarlos.o" -o "src/claseCarlos.o" "../src/claseCarlos.cpp"
+Finished building: ../src/claseCarlos.cpp
+ 
+Building file: ../src/principal.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/principal.d" -MT"src/principal.o" -o "src/principal.o" "../src/principal.cpp"
+Finished building: ../src/principal.cpp
+ 
+Building target: Task2
+Invoking: GCC C++ Linker
+g++  -o "Task2"  ./src/claseCarlos.o ./src/principal.o   
+Finished building target: Task2
+ 
+22:22:30 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+22:22:30 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+make: Nothing to be done for `all'.
+22:22:31 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+make: Nothing to be done for `all'.
+22:22:35 **** Incremental Build of configuration Debug for project Task2 ****
 make all 
 make: Nothing to be done for `all'.
