@@ -1,131 +1,15 @@
-21:00:56 **** Build of configuration Debug for project Prueba1 ****
+02:23:44 **** Incremental Build of configuration Debug for project Task1 ****
 make all 
-Building file: ../hola.c
-Invoking: Cross GCC Compiler
-gccgcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hola.d" -MT"hola.o" -o "hola.o" "../hola.c"
-/bin/sh: 1: gccgcc: not found
-make: *** [hola.o] Error 127
-
-**** Build of configuration Debug for project Prueba2 ****
-
-Nothing to build for project Prueba2
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:01:17 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-Building file: ../hola.c
-Invoking: Cross GCC Compiler
-gccgcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hola.d" -MT"hola.o" -o "hola.o" "../hola.c"
-/bin/sh: 1: gccgcc: not found
-make: *** [hola.o] Error 127
-
-**** Build of configuration Debug for project Prueba2 ****
-
-Nothing to build for project Prueba2
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:16:01 **** Build of configuration Debug for project Prueba1 ****
-make all 
-Building file: ../prueba.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prueba.d" -MT"prueba.o" -o "prueba.o" "../prueba.c"
-Finished building: ../prueba.c
- 
-Building target: Prueba1
-Invoking: GCC C Linker
-gcc  -o "Prueba1"  ./prueba.o   
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 20 has invalid symbol index 13
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 21 has invalid symbol index 22
-/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
-/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o: In function `_start':
-(.text+0x18): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-make: *** [Prueba1] Error 1
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:18:32 **** Build of configuration Debug for project Prueba1 ****
-make all 
-Building file: ../src/Prueba1.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prueba1.d" -MT"src/Prueba1.o" -o "src/Prueba1.o" "../src/Prueba1.cpp"
-Finished building: ../src/Prueba1.cpp
- 
-Building target: Prueba1
-Invoking: Cross G++ Linker
-g++  -o "Prueba1"  ./src/Prueba1.o   
-Finished building target: Prueba1
- 
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:18:38 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-make: Nothing to be done for `all'.
-21:19:20 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-make: Nothing to be done for `all'.
-
-**** Build of configuration Debug for project Task1 ****
-
-Nothing to build for project Task1
-21:19:31 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-Building file: ../src/Prueba1.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prueba1.d" -MT"src/Prueba1.o" -o "src/Prueba1.o" "../src/Prueba1.cpp"
-Finished building: ../src/Prueba1.cpp
- 
-Building target: Prueba1
-Invoking: Cross G++ Linker
-g++  -o "Prueba1"  ./src/Prueba1.o   
-Finished building target: Prueba1
- 
-21:21:39 **** Incremental Build of configuration Debug for project Prueba1 ****
-make all 
-Building target: Prueba1
-Invoking: Cross G++ Linker
-g++  -o "Prueba1"  ./src/Prueba1.o   
-Finished building target: Prueba1
- 
-21:21:39 **** Build of configuration Debug for project Task1 ****
-make all 
-Building file: ../src/file1.cpp
+Building file: ../src/task1_1.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/file1.d" -MT"src/file1.o" -o "src/file1.o" "../src/file1.cpp"
-Finished building: ../src/file1.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/task1_1.d" -MT"src/task1_1.o" -o "src/task1_1.o" "../src/task1_1.cpp"
+Finished building: ../src/task1_1.cpp
  
 Building target: Task1
 Invoking: GCC C++ Linker
-g++  -o "Task1"  ./src/file1.o   
+g++  -o "Task1"  ./src/task1_1.o   
 Finished building target: Task1
  
-21:21:44 **** Incremental Build of configuration Debug for project Task1 ****
+02:23:47 **** Incremental Build of configuration Debug for project Task1 ****
 make all 
 make: Nothing to be done for `all'.
