@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 19:12:15 **** Incremental Build of configuration Debug for project Task2 ****
 make all 
 Building file: ../src/claseCarlosSalle.cpp
@@ -343,6 +344,14 @@ Building file: ../src/claseCarlos.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseCarlos.d" -MT"src/claseCarlos.o" -o "src/claseCarlos.o" "../src/claseCarlos.cpp"
 Finished building: ../src/claseCarlos.cpp
+=======
+02:23:44 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+Building file: ../src/task1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/task1_1.d" -MT"src/task1_1.o" -o "src/task1_1.o" "../src/task1_1.cpp"
+Finished building: ../src/task1_1.cpp
+>>>>>>> ae810f190253dc8473ca3d4eb9b30003850edb91
  
 Building file: ../src/principal.cpp
 Invoking: GCC C++ Compiler
@@ -351,6 +360,7 @@ Finished building: ../src/principal.cpp
  
 Building target: Task2
 Invoking: GCC C++ Linker
+<<<<<<< HEAD
 g++  -o "Task2"  ./src/claseCarlos.o ./src/principal.o   
 Finished building target: Task2
  
@@ -364,5 +374,11 @@ make: Nothing to be done for `all'.
 make all 
 make: Nothing to be done for `all'.
 22:22:35 **** Incremental Build of configuration Debug for project Task2 ****
+=======
+g++  -o "Task1"  ./src/task1_1.o   
+Finished building target: Task1
+ 
+02:23:47 **** Incremental Build of configuration Debug for project Task1 ****
+>>>>>>> ae810f190253dc8473ca3d4eb9b30003850edb91
 make all 
 make: Nothing to be done for `all'.
