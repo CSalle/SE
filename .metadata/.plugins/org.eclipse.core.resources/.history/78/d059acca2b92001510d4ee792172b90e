@@ -1,0 +1,14 @@
+/*
+ * ClaseFernando.h
+ *
+ *  Created on: Nov 23, 2015
+ *      Author: fernando
+ */
+
+#ifndef SRC_CLASEFERNANDO_H_
+#define SRC_CLASEFERNANDO_H_
+
+class ClaseFernando {
+};
+
+#endif /* SRC_CLASEFERNANDO_H_ */

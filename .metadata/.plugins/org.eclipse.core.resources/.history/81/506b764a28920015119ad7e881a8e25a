@@ -1,0 +1,17 @@
+/*
+ * claseCarlos.h
+ *
+ *  Created on: Nov 23, 2015
+ *      Author: carlos
+ */
+
+#ifndef SRC_CLASECARLOS_H_
+#define SRC_CLASECARLOS_H_
+
+class claseCarlos {
+public:
+	claseCarlos;
+	void saluda();
+};
+
+#endif /* SRC_CLASECARLOS_H_ */

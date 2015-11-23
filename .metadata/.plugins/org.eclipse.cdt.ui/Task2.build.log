@@ -1,0 +1,15 @@
+13:56:16 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/principal.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/principal.d" -MT"src/principal.o" -o "src/principal.o" "../src/principal.cpp"
+Finished building: ../src/principal.cpp
+ 
+Building target: Task2
+Invoking: GCC C++ Linker
+g++  -o "Task2"  ./src/ClaseFernando.o ./src/claseCarlos.o ./src/principal.o   
+Finished building target: Task2
+ 
+
+13:56:16 Build Finished (took 286ms)
+

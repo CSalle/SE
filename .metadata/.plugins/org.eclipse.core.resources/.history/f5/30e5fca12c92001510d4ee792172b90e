@@ -1,0 +1,22 @@
+/*
+ * principal.cpp
+ *
+ *  Created on: Nov 23, 2015
+ *      Author: carlos
+ */
+
+
+#include <iostream>
+using namespace std;
+#include "claseCarlos.h"
+#include "claseFernando.h"
+
+int main() {
+
+	claseCarlos carlos;
+	carlos.saluda();
+
+	claseFernando Fer;
+
+	return 0;
+}
