@@ -1,14 +1,11 @@
-<<<<<<< HEAD
-22:22:30 **** Incremental Build of configuration Debug for project Task1 ****
+13:55:18 **** Incremental Build of configuration Debug for project Task1 ****
 make all 
-make: Nothing to be done for `all'.
+Building target: Task1
+Invoking: GCC C++ Linker
+g++  -o "Task1"  ./src/task1_1.o   
+/usr/bin/ld: i386 architecture of input file `./src/task1_1.o' is incompatible with i386:x86-64 output
+collect2: error: ld returned 1 exit status
+make: *** [Task1] Error 1
 
-22:22:31 Build Finished (took 55ms)
-=======
-02:23:47 **** Incremental Build of configuration Debug for project Task1 ****
-make all 
-make: Nothing to be done for `all'.
-
-02:23:47 Build Finished (took 99ms)
->>>>>>> ae810f190253dc8473ca3d4eb9b30003850edb91
+13:55:18 Build Finished (took 114ms)
 
