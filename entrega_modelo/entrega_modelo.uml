@@ -2,29 +2,12 @@
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3KzzoJz5EeW5aoQQQa_TaQ" name="RootElement">
   <packagedElement xmi:type="uml:Actor" xmi:id="_d4sZsJz6EeW5aoQQQa_TaQ" name="Usuario"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_f01WQJz6EeW5aoQQQa_TaQ" name="Dron"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_ymllEJz6EeW5aoQQQa_TaQ" name="Aerostack"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_0a40QJz6EeW5aoQQQa_TaQ" name="Programa principal">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__DET4Jz6EeW5aoQQQa_TaQ" name="Introducir misión"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_GPlk8Jz7EeW5aoQQQa_TaQ" name="Obtención de camino"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0a40QJz6EeW5aoQQQa_TaQ" name="Carlos Reche -08/12/15">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_TBrLwJ3JEeWMWavGk0fQPA" name="Aterrizaje"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_oKXcwJ3JEeWMWavGk0fQPA" name="Parada de emergencia"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_UMbusJ3JEeWMWavGk0fQPA" name="Despegue"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_i1qXAJ3LEeWMWavGk0fQPA" name="invalidates" client="_oKXcwJ3JEeWMWavGk0fQPA" supplier="_TBrLwJ3JEeWMWavGk0fQPA"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_k0ZUkJ3LEeWMWavGk0fQPA" name="invalidates" client="_oKXcwJ3JEeWMWavGk0fQPA" supplier="_UMbusJ3JEeWMWavGk0fQPA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_MXTxIJz7EeW5aoQQQa_TaQ" memberEnd="_MXWNYJz7EeW5aoQQQa_TaQ _MXW0cJz7EeW5aoQQQa_TaQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MXVmUJz7EeW5aoQQQa_TaQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MXVmUZz7EeW5aoQQQa_TaQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_MXWNYJz7EeW5aoQQQa_TaQ" name="obtención de camino" type="_GPlk8Jz7EeW5aoQQQa_TaQ" association="_MXTxIJz7EeW5aoQQQa_TaQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_MXW0cJz7EeW5aoQQQa_TaQ" name="introducir misión" type="__DET4Jz6EeW5aoQQQa_TaQ" association="_MXTxIJz7EeW5aoQQQa_TaQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_dCB2YJ3JEeWMWavGk0fQPA" memberEnd="_dCP40J3JEeWMWavGk0fQPA _dCRuAJ3JEeWMWavGk0fQPA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dCFgwJ3JEeWMWavGk0fQPA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dCGH0J3JEeWMWavGk0fQPA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_dCP40J3JEeWMWavGk0fQPA" name="introducir misión" type="__DET4Jz6EeW5aoQQQa_TaQ" association="_dCB2YJ3JEeWMWavGk0fQPA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_dCRuAJ3JEeWMWavGk0fQPA" name="usuario" type="_d4sZsJz6EeW5aoQQQa_TaQ" association="_dCB2YJ3JEeWMWavGk0fQPA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_d5hfEJ3JEeWMWavGk0fQPA" memberEnd="_d5kiYJ3JEeWMWavGk0fQPA _d5lJcJ3JEeWMWavGk0fQPA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d5jUQJ3JEeWMWavGk0fQPA" source="org.eclipse.papyrus">
