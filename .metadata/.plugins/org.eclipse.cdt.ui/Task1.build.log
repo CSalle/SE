@@ -1,4 +1,4 @@
-13:55:18 **** Incremental Build of configuration Debug for project Task1 ****
+14:01:46 **** Incremental Build of configuration Debug for project Task1 ****
 make all 
 Building target: Task1
 Invoking: GCC C++ Linker
@@ -7,5 +7,5 @@ g++  -o "Task1"  ./src/task1_1.o
 collect2: error: ld returned 1 exit status
 make: *** [Task1] Error 1
 
-13:55:18 Build Finished (took 114ms)
+14:01:46 Build Finished (took 103ms)
 

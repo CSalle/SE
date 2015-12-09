@@ -27,3 +27,76 @@ Invoking: GCC C++ Linker
 g++  -o "Task2"  ./src/ClaseFernando.o ./src/claseCarlos.o ./src/principal.o   
 Finished building target: Task2
  
+13:59:41 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+13:59:41 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+Building target: Task1
+Invoking: GCC C++ Linker
+g++  -o "Task1"  ./src/task1_1.o   
+/usr/bin/ld: i386 architecture of input file `./src/task1_1.o' is incompatible with i386:x86-64 output
+collect2: error: ld returned 1 exit status
+make: *** [Task1] Error 1
+13:59:42 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/ClaseFernando.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClaseFernando.d" -MT"src/ClaseFernando.o" -o "src/ClaseFernando.o" "../src/ClaseFernando.cpp"
+../src/ClaseFernando.cpp:8:27: fatal error: ClaseFernando.h: No such file or directory
+ #include "ClaseFernando.h"
+                           ^
+compilation terminated.
+make: *** [src/ClaseFernando.o] Error 1
+13:59:54 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+13:59:54 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+Building target: Task1
+Invoking: GCC C++ Linker
+g++  -o "Task1"  ./src/task1_1.o   
+/usr/bin/ld: i386 architecture of input file `./src/task1_1.o' is incompatible with i386:x86-64 output
+collect2: error: ld returned 1 exit status
+make: *** [Task1] Error 1
+13:59:54 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/ClaseFernando.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClaseFernando.d" -MT"src/ClaseFernando.o" -o "src/ClaseFernando.o" "../src/ClaseFernando.cpp"
+../src/ClaseFernando.cpp:8:27: fatal error: ClaseFernando.h: No such file or directory
+ #include "ClaseFernando.h"
+                           ^
+compilation terminated.
+make: *** [src/ClaseFernando.o] Error 1
+14:01:45 **** Incremental Build of configuration Debug for project Prueba1 ****
+make all 
+make: Nothing to be done for `all'.
+14:01:46 **** Incremental Build of configuration Debug for project Task1 ****
+make all 
+Building target: Task1
+Invoking: GCC C++ Linker
+g++  -o "Task1"  ./src/task1_1.o   
+/usr/bin/ld: i386 architecture of input file `./src/task1_1.o' is incompatible with i386:x86-64 output
+collect2: error: ld returned 1 exit status
+make: *** [Task1] Error 1
+14:01:46 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+Building file: ../src/ClaseFernando.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClaseFernando.d" -MT"src/ClaseFernando.o" -o "src/ClaseFernando.o" "../src/ClaseFernando.cpp"
+Finished building: ../src/ClaseFernando.cpp
+ 
+Building file: ../src/principal.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/principal.d" -MT"src/principal.o" -o "src/principal.o" "../src/principal.cpp"
+Finished building: ../src/principal.cpp
+ 
+Building target: Task2
+Invoking: GCC C++ Linker
+g++  -o "Task2"  ./src/ClaseFernando.o ./src/claseCarlos.o ./src/principal.o   
+Finished building target: Task2
+ 
+14:01:50 **** Incremental Build of configuration Debug for project Task2 ****
+make all 
+make: Nothing to be done for `all'.
