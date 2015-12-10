@@ -175,6 +175,75 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_nXHfAZ6GEeWY_9oWZruf1g" name="desviación de posición" type="_gYgjkJ6FEeWY_9oWZruf1g" association="_nXFCwJ6GEeWY_9oWZruf1g"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_nXItIJ6GEeWY_9oWZruf1g" name="viento" type="_k9q7YJ6GEeWY_9oWZruf1g" association="_nXFCwJ6GEeWY_9oWZruf1g"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_haQBcJ9WEeW7laOy3HKmuQ" name="Carlos Sallé">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qMYlcJ9WEeW7laOy3HKmuQ" name="Error de lectura"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xEiwEJ9WEeW7laOy3HKmuQ" name="Avería electrónica"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7TvvAJ9WEeW7laOy3HKmuQ" name="Sobrecalentamiento motores"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CRDfYJ9XEeW7laOy3HKmuQ" name="Prohibición normativa"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ckyccJ9YEeW7laOy3HKmuQ" name="Desviación de posición"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qo5QYJ9YEeW7laOy3HKmuQ" name="Hélices desequilibradas"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jUrGwJ9WEeW7laOy3HKmuQ" name="Lluvia"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ljqt4J9WEeW7laOy3HKmuQ" name="Temperatura"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_s1PeEJ9WEeW7laOy3HKmuQ" memberEnd="_s1Z2IJ9WEeW7laOy3HKmuQ _s1euoJ9WEeW7laOy3HKmuQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s1VksJ9WEeW7laOy3HKmuQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s1WLwJ9WEeW7laOy3HKmuQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s1Z2IJ9WEeW7laOy3HKmuQ" name="error de lectura" type="_qMYlcJ9WEeW7laOy3HKmuQ" association="_s1PeEJ9WEeW7laOy3HKmuQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s1euoJ9WEeW7laOy3HKmuQ" name="baliza" type="_RByWoJ3UEeWMWavGk0fQPA" association="_s1PeEJ9WEeW7laOy3HKmuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1TYvEJ9WEeW7laOy3HKmuQ" memberEnd="_1TZ9MZ9WEeW7laOy3HKmuQ _1TakQJ9WEeW7laOy3HKmuQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1TZWIJ9WEeW7laOy3HKmuQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1TZ9MJ9WEeW7laOy3HKmuQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1TZ9MZ9WEeW7laOy3HKmuQ" name="avería electrónica" type="_xEiwEJ9WEeW7laOy3HKmuQ" association="_1TYvEJ9WEeW7laOy3HKmuQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1TakQJ9WEeW7laOy3HKmuQ" name="lluvia" type="_jUrGwJ9WEeW7laOy3HKmuQ" association="_1TYvEJ9WEeW7laOy3HKmuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-6B5MJ9WEeW7laOy3HKmuQ" memberEnd="_-6DHUZ9WEeW7laOy3HKmuQ _-6DuYJ9WEeW7laOy3HKmuQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-6CgQJ9WEeW7laOy3HKmuQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-6DHUJ9WEeW7laOy3HKmuQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-6DHUZ9WEeW7laOy3HKmuQ" name="sobrecalentamiento motores" type="_7TvvAJ9WEeW7laOy3HKmuQ" association="_-6B5MJ9WEeW7laOy3HKmuQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-6DuYJ9WEeW7laOy3HKmuQ" name="temperatura" type="_ljqt4J9WEeW7laOy3HKmuQ" association="_-6B5MJ9WEeW7laOy3HKmuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Al1TsJ9XEeW7laOy3HKmuQ" name="Luz ambiental"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OjN0kJ9XEeW7laOy3HKmuQ" memberEnd="_OjPpwJ9XEeW7laOy3HKmuQ _OjPpwZ9XEeW7laOy3HKmuQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OjPCsJ9XEeW7laOy3HKmuQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OjPCsZ9XEeW7laOy3HKmuQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OjPpwJ9XEeW7laOy3HKmuQ" name="prohibición normativa" type="_CRDfYJ9XEeW7laOy3HKmuQ" association="_OjN0kJ9XEeW7laOy3HKmuQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OjPpwZ9XEeW7laOy3HKmuQ" name="luz ambiental" type="_Al1TsJ9XEeW7laOy3HKmuQ" association="_OjN0kJ9XEeW7laOy3HKmuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TZr0QJ9XEeW7laOy3HKmuQ" name="Zona de vuelo"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MqrwMJ9YEeW7laOy3HKmuQ" memberEnd="_MquMcJ9YEeW7laOy3HKmuQ _MquMcZ9YEeW7laOy3HKmuQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mqs-UJ9YEeW7laOy3HKmuQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MqtlYJ9YEeW7laOy3HKmuQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MquMcJ9YEeW7laOy3HKmuQ" name="prohibición normativa" type="_CRDfYJ9XEeW7laOy3HKmuQ" association="_MqrwMJ9YEeW7laOy3HKmuQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MquMcZ9YEeW7laOy3HKmuQ" name="zona de vuelo" type="_TZr0QJ9XEeW7laOy3HKmuQ" association="_MqrwMJ9YEeW7laOy3HKmuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_foVtAJ9YEeW7laOy3HKmuQ" memberEnd="_foXiMJ9YEeW7laOy3HKmuQ _foYJQJ9YEeW7laOy3HKmuQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foW7IJ9YEeW7laOy3HKmuQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_foW7IZ9YEeW7laOy3HKmuQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_foXiMJ9YEeW7laOy3HKmuQ" name="desviación de posición" type="_ckyccJ9YEeW7laOy3HKmuQ" association="_foVtAJ9YEeW7laOy3HKmuQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_foYJQJ9YEeW7laOy3HKmuQ" name="lluvia" type="_jUrGwJ9WEeW7laOy3HKmuQ" association="_foVtAJ9YEeW7laOy3HKmuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ggp1EJ9YEeW7laOy3HKmuQ" memberEnd="_ggrDMZ9YEeW7laOy3HKmuQ _ggrDMp9YEeW7laOy3HKmuQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ggqcIJ9YEeW7laOy3HKmuQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ggrDMJ9YEeW7laOy3HKmuQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ggrDMZ9YEeW7laOy3HKmuQ" name="avería electrónica" type="_xEiwEJ9WEeW7laOy3HKmuQ" association="_ggp1EJ9YEeW7laOy3HKmuQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ggrDMp9YEeW7laOy3HKmuQ" name="temperatura" type="_ljqt4J9WEeW7laOy3HKmuQ" association="_ggp1EJ9YEeW7laOy3HKmuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kc190J9YEeW7laOy3HKmuQ" name="Limitaciones de seguridad"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mRKbIJ9YEeW7laOy3HKmuQ" memberEnd="_mRNecp9YEeW7laOy3HKmuQ _mROFgJ9YEeW7laOy3HKmuQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRNecJ9YEeW7laOy3HKmuQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRNecZ9YEeW7laOy3HKmuQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mRNecp9YEeW7laOy3HKmuQ" name="prohibición normativa" type="_CRDfYJ9XEeW7laOy3HKmuQ" association="_mRKbIJ9YEeW7laOy3HKmuQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mROFgJ9YEeW7laOy3HKmuQ" name="limitaciones de seguridad" type="_kc190J9YEeW7laOy3HKmuQ" association="_mRKbIJ9YEeW7laOy3HKmuQ"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3mPycJz5EeW5aoQQQa_TaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3mV5EJz5EeW5aoQQQa_TaQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
