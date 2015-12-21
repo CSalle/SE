@@ -11,6 +11,8 @@ using namespace std;
 
 #include "claseCarlos.h"
 #include "ClaseFernando.h"
+#include "claseReche.h"
+#include "clasefernandoperez.h"
 
 int main() {
 
@@ -19,6 +21,12 @@ int main() {
 
 	ClaseFernando Fer;
 	Fer.speak();
+
+	claseReche reche;
+	reche.hola();
+
+	clasefernandoperez fer2;
+	fer2.dihola();
 
 	return 0;
 }
